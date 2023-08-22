@@ -1,21 +1,3 @@
-#d1 {
-    background-color: aliceblue;
-}
-
-p {
-    background-color: beige;
-}
-
-/* 이렇게하면 걍 summary 다됨  */
-/* main article details summary {
-    background-color: cornsilk;
-} */
-
-/* 이렇게하면 경로 */
-main > article > details > summary {
-    background-color: cornsilk;
-}
-
 .detailDiv {
     display: flex;
     justify-content: center;
