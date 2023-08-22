@@ -1,0 +1,44 @@
+#d1 {
+    background-color: aliceblue;
+}
+
+p {
+    background-color: beige;
+}
+
+/* 이렇게하면 걍 summary 다됨  */
+/* main article details summary {
+    background-color: cornsilk;
+} */
+
+/* 이렇게하면 경로 */
+main > article > details > summary {
+    background-color: cornsilk;
+}
+
+.detailDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailDiv > div {
+    width: 20%;
+}
+
+.detailDiv > p {
+    width: 80%;
+}
+
+/* > 이거는 경로 정확히? 공백으로 쓰면 부모자식 다 */
+.detailDiv img { 
+    border-radius: 50%;
+}
+
+#bt {
+    background-color: #CED8F6;
+    color: black;
+    border: none;
+    padding: 3px 10px;
+}
+
