@@ -11,18 +11,40 @@
 <body>
     <main class="container">
         <article>
-            <header><h1>주사위 게임2</h1></header>
+            <header>
+                <hgroup>
+                <h1>주사위 던지기</h1>
+                <h2>결과 보기</h2>
+                </hgroup>
+            </header>   
             <div class="div1">
                 <div id="adiv"></div>
             </div>
             <footer>
+                <!-- Radios -->
+                <fieldset>
+                    <legend>번호 선택</legend>
+                    <label for="r1">
+                        <input type="radio" id="r1" name="num" value="1" checked>1
+                    </label>
+                    <label for="r2">
+                        <input type="radio" id="r2" name="num" value="2" >2
+                    </label>
+                    <label for="r3">
+                        <input type="radio" id="r3" name="num" value="3" >3
+                    </label>
+                    <label for="r4">
+                        <input type="radio" id="r4" name="num" value="4" >4
+                    </label>
+                    <label for="r5">
+                        <input type="radio" id="r5" name="num" value="5" >5
+                    </label>
+                    <label for="r6">
+                        <input type="radio" id="r6" name="num" value="6" >6
+                    </label>
+                </fieldset>
                 <div class="grid">
-                <button id="bt1" onclick="dice2(1)">1</button>
-                <button id="bt2" onclick="dice2(2)">2</button>
-                <button id="bt3" onclick="dice2(3)">3</button>
-                <button id="bt4" onclick="dice2(4)">4</button>
-                <button id="bt5" onclick="dice2(5)">5</button>
-                <button id="bt6" onclick="dice2(6)">6</button>
+                    <button>확인</button>    
                 </div>
             </footer>
         </article>
