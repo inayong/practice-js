@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+}
+
+.num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.num > div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid gray;
+    margin: 0px;
+    padding: 0px;
+}
